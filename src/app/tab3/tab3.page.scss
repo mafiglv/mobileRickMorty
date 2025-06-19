@@ -1,0 +1,24 @@
+ion-card {
+  background-color: #2e2e2e;
+  color: white;
+  border-radius: 12px;
+  
+  ion-card-title {
+    color: var(--ion-color-primary);
+  }
+  
+  ion-item {
+    --background: transparent;
+    --color: white;
+    
+    ion-icon {
+      color: var(--ion-color-primary);
+    }
+  }
+}
+
+ion-avatar {
+  width: 60px;
+  height: 60px;
+  margin-right: 16px;
+}

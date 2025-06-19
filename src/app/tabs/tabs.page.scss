@@ -1,0 +1,19 @@
+.custom-tab-bar {
+  --background: #1c1c1c; 
+  --color: #888; 
+  --color-selected: var(--ion-color-primary);
+
+  .tab-icon {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 4px;
+    filter: invert(0.6); 
+    transition: filter 0.3s ease;
+  }
+
+  ion-tab-button.tab-selected {
+    .tab-icon {
+      filter: invert(0.9) sepia(1) saturate(5) hue-rotate(180deg); /* Transforma preto em azul */
+    }
+  }
+}

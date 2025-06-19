@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title>Detalhes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="character">
+  <ion-card>
+    <img [src]="character.image" />
+    <ion-card-header>
+      <ion-card-title>{{ character.name }}</ion-card-title>
+      <ion-card-subtitle>{{ character.species }} - {{ character.status }}</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Origem: {{ character.origin.name }}</p>
+      <p>Localização: {{ character.location.name }}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
