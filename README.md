@@ -41,7 +41,7 @@ Tecnologias utilizadas:
 ![Detalhes do Personagem](screenshots/detalhes.png)
 
 ### Tela do Autor
-![Sobre o Autor](screenshots/author.png)
+![Sobre o Autor](screenshots/autor.png)
 
 ---
 
