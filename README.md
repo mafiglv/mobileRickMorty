@@ -35,7 +35,7 @@ Tecnologias utilizadas:
 ## 📱 Telas do Aplicativo 
 
 ### Tela de Personagens
-![Lista de Personagens](personagens.png)
+![Lista de Personagens](screenshots/personagens.png)
 
 ### Tela de Detalhes
 ![Detalhes do Personagem](screenshots/detalhes.png)
