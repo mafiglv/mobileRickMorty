@@ -48,25 +48,21 @@ Tecnologias utilizadas:
 ## 🚀 Como Executar o Projeto
 
 1. Clone o repositório:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/mafiglv/mobileRickMorty.git
    cd mobileRickMorty
-   \`\`\`
 
 2. Instale as dependências:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
 
 3. Execute o projeto:
-   \`\`\`bash
+   ```bash
    ionic serve
-   \`\`\`
 
 4. Acesse no navegador:
-   \`\`\`
+   ```bash
    http://localhost:8100
-   \`\`\`
 
 ### 📋 Requisitos
 - Node.js 16.x ou superior
